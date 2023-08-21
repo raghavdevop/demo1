@@ -1,0 +1,104 @@
+184  git branch
+  185  git branch Dev
+  186  git branch
+  187  git checkout Dev
+  188  ls
+  189  touch file file1
+  190  vi file\
+  191  vi file
+  192  git status
+  193  git add .
+  194  git commit -m "added two files to dev"
+  195  git status
+  196  git push -u origin Dev
+  197  git checkout master
+  198  touch java hello
+  199  git branch
+  200  git branch -b Test
+  201  git branch -d Test
+  202  git checkout -b Test
+  203  git branch
+  204  ls
+  205  touch good happy
+  206  git checkout master
+  207  git add .
+  208  git commit -m "added two files to master"
+  209  git push -u origin master
+  210  git checkout Test
+  211  ls
+  212  touch durga pallu
+  213  git add .
+  214  git status
+  215  git commit -m "added files to test"
+  216  git push -u origin test
+  217  git push -u origin Test
+  218  git checkout master
+  219  git checkout -b feature
+  220  ls
+  221  touch t1 t2
+  222  git add .
+  223  git commit -m "added files to feature"
+  224  git push -u origin feature
+  225  git checkout master
+  226  ls
+  227  git merge Test
+  228  git push
+  229  git fetch
+  230  git push
+  231  git fetch
+  232  git push
+  233  git push -u origin master
+  234  git fetch
+  235  git merge
+  236  git push
+  237  git status
+  238  touch xyz abc
+  239  git add .
+  240  git status
+  241  git stash
+  242  git status
+  243  git stash list
+  244  git stash --list
+  245  git stash -list
+  246  git stash list
+  247  git stash apply
+  248  git restore --staged abc xyz
+  249  git status
+  250  git stash abc
+  251  git status
+  252  git stash
+  253  git status
+  254  history
+  255  git diff
+  256  git branch
+  257  git diff dev
+  258  mkdir .gitignore
+  259  ls
+  260  ls -a
+  261  touch t1.txt t1
+  262  vi .gitignore/
+  263  vi .gitignore
+  264  vi .gitignore
+  265  vi .gitignore
+  266  vi .gitignore
+  267  ls -a
+  268  rmdir .gitignore/
+  269  vi .gitignore
+  270  ls
+  271  vi .gitignore
+  272  git add .
+  273  git commit -m "5th commit"
+  274  git push orign master
+  275  git push origin master
+  276  git status
+  277  git log --oneline
+  278  git checkout Dev
+  279  git log --oneline
+  280  git cherrypick bdd98f2
+  281  git cherry-pick bdd98f2
+  282  git log --oneline
+  283  git status
+  284  git push
+  285  git history
+  286  history
+
