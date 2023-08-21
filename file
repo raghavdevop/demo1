@@ -1,0 +1,6 @@
+echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+After you install kubectl, you can verify its version.
+
+
+kubectl version --short --client
+You can ignore the message explaining that --short will become the default in the futur
